@@ -2,35 +2,58 @@ body {
 	background-color: #0D0A06; /*  Black  */                                                           
 }
 
-                                                           
+#planet {
+	margin-left: 400px;
+} 
+                                                         
 h1, p {
 	color: #FFF; /* White */  
 	font-family: Helvetica, sans-serif; 
 	text-align: left; 
-	vertical-align: 213%;                                                       
+	vertical-align: 213%;
+	text-transform: capitalize;                                                       
 }
 
 ul {
 	font: 1.6em "Times new roman", Helvetica, sans-serif;
 	list-style-type: square;
-	color:  #DDDF26; /*  Yellow  */                                                           
+	margin-left: 400px; 
+	font-variant: small-caps;                                                         
 }
-
 
 h2 {
 	text-decoration: line-through;
 	color: #433E3A; /* Gray  */                                                           
 	line-height: 1px;
+	word-spacing: 0.1em;
+	font-weight: bolder;
 }
 
 ol {
 	opacity: 1.1;
-	color: rgba(54, 17, 89, 3.5); /*  Purple  */                                                           
+	color: rgba(54, 17, 89, 1); /*  Purple  */ 
+	text-indent: 0.3em;                                                          
 }
 
 h3 {
 	color: #DB0215; /*   Red  */                                                           
 	text-shadow: #0D0A06 0.1em 0.1em 0.2em; /*  Black  */  
-	letter-spacing: 0.2em;                                                         
+	letter-spacing: 0.2em;
+	font-size: 1.9em;
+	font-style: italic;                                                         
 }
+
+.sense {
+	font-style: italic;
+}
+
+	/*          Will cancel out my list-style-type   */                                                           
+ul li {
+	display: inline;
+}
+
+ul li a:hover {
+	color: #DDDF26; /*  Yellow  */ 
+}
+
 
