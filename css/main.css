@@ -6,10 +6,31 @@ body {
 h1, p {
 	color: #FFF; /* White */  
 	font-family: Helvetica, sans-serif; 
-	text-align: left;                                                        
+	text-align: left; 
+	vertical-align: 213%;                                                       
 }
 
 ul {
 	font: 1.6em "Times new roman", Helvetica, sans-serif;
+	list-style-type: square;
+	color:  #DDDF26; /*  Yellow  */                                                           
+}
+
+
+h2 {
+	text-decoration: line-through;
+	color: #433E3A; /* Gray  */                                                           
+	line-height: 1px;
+}
+
+ol {
+	opacity: 1.1;
+	color: rgba(54, 17, 89, 3.5); /*  Purple  */                                                           
+}
+
+h3 {
+	color: #DB0215; /*   Red  */                                                           
+	text-shadow: #0D0A06 0.1em 0.1em 0.2em; /*  Black  */  
+	letter-spacing: 0.2em;                                                         
 }
 
